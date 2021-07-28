@@ -28,8 +28,14 @@ namespace ApiProdutos
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            /* CONFIGURAÇÃO PARA USAR O BD: MYSQL/PHPMYADMIN:
+             * 
             string mySqlConnection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContextPool<AppDbContext>(options => options.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
+            */
+
+            var ConnectionString = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

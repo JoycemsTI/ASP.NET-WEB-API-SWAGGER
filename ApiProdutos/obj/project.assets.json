@@ -7406,11 +7406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\PSG\\MODELO MACORATTI - ASPNET WEB API\\ApiProdutos\\ApiProdutos\\ApiProdutos.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\ASP NET WebApi SWAGGER REST-JSON\\ApiProdutos\\ApiProdutos.csproj",
       "projectName": "ApiProdutos",
-      "projectPath": "C:\\Users\\User\\Desktop\\PSG\\MODELO MACORATTI - ASPNET WEB API\\ApiProdutos\\ApiProdutos\\ApiProdutos.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\ASP NET WebApi SWAGGER REST-JSON\\ApiProdutos\\ApiProdutos.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\PSG\\MODELO MACORATTI - ASPNET WEB API\\ApiProdutos\\ApiProdutos\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\ASP NET WebApi SWAGGER REST-JSON\\ApiProdutos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
